@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>Currency Converter</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+	<head/>
+	<body >
+		<img src="1.jpg" alt="" srcset="">
+	<b class="logo">Currency Converter</b>
+	<table align="center" >
+		<tr>
+			<th>From  :</th>
+			<td>
+				<select id="from">
+					<option value="INR">INDIA</option>
+					<option value="USD">AMERICA</option>
+					<option value="AED">DUBAI</option>
+					<option value="AFN">AFAGNISTAN</option>
+					<option value="ALL">ALBANIAN</option>
+					<option value="AMD">ARMENIAN DRAM</option>
+					<option value="EUR">EUROPE</option>
+					<option value="HKD">HONKONG</option>
+					<option value="JPY">JAPAN</option>
+					<option value="PKR">PAKISTAN</option>
+					<option value="OMR">OMAN</option>
+				</select>
+			</td>
+		</tr>	
+		<tr>
+			<th>To  :</th>
+			<td>
+				<select id="to">
+					<option value="INR">INDIA</option>
+					<option value="USD" selected>AMERICA</option>
+					<option value="AED">DUBAI</option>
+					<option value="AFN">AFAGNISTAN</option>
+					<option value="ALL">ALBANIAN</option>
+					<option value="AMD">ARMENIAN DRAM</option>
+					<option value="EUR">EUROPE</option>
+					<option value="HKD">HONKONG</option>
+					<option value="JPY">JAPAN</option>
+					<option value="PKR">PAKISTAN</option>
+					<option value="OMR">OMAN</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<th for="amt">Enter Amount :</th>
+			<td><input type="number" id="amt"></td>
+		</tr>
+		<tr align="center">
+			<td colspan="2"><button onclick="convert()">Convert</button></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center" class="Last">
+				<span id="curr"> </span>
+				<!-- <span id ="result"></span> -->
+			</td>
+		</tr>
+	</table>
+	
+	
+	
+	
+	
+	<script src="assets/js/main.js"></script>
+	<body/>
+</html>
